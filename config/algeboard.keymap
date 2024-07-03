@@ -27,11 +27,11 @@
 
         windows_fn {
             bindings = <
-              &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp F1    &kp F2  &kp F3  &kp F4      &kp F5     &kp F6     &kp AMPS   &kp STAR              &kp N9                 &kp N0        &kp UNDERSCORE     &kp EQUAL        &kp RC(BACKSPACE)
-              &rgb_ug RGB_SAI  &trans           &trans    &trans  &trans  &trans      &trans     &kp RS(Y)  &kp RS(U)  &kp RS(I)             &kp RS(O)              &kp RS(P)     &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp PIPE
-&tog 3        &rgb_ug RGB_SAD  &trans           &kp EXCL  &trans  &trans  &kp DOLLAR  &kp CARET  &kp RS(H)  &kp RS(J)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON     &kp DOUBLE_QUOTES  &trans           &kp C_BRI_INC
-&out OUT_USB  &rgb_ug RGB_BRI  &trans           &trans    &trans  &trans  &trans      &trans     &kp RS(N)  &kp RS(M)  &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &trans             &kp C_VOL_UP     &kp C_BRI_DEC
-&out OUT_BLE  &rgb_ug RGB_BRD  &trans           &trans    &trans  &trans  &trans      &trans     &trans     &trans     &trans                &kp C_PREV             &kp C_VOL_DN  &kp C_NEXT
+              &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp F1    &kp F2  &kp F3  &kp F4      &kp F5       &kp F6     &kp AMPS   &kp STAR              &kp N9                 &kp N0        &kp UNDERSCORE     &kp PLUS         &kp RC(BACKSPACE)
+              &rgb_ug RGB_SAI  &trans           &trans    &trans  &trans  &trans      &trans       &kp RS(Y)  &kp RS(U)  &kp RS(I)             &kp RS(O)              &kp RS(P)     &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp PIPE
+&tog 3        &rgb_ug RGB_SAD  &trans           &kp EXCL  &trans  &trans  &kp DOLLAR  &kp CARET    &kp RS(H)  &kp RS(J)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON     &kp DOUBLE_QUOTES  &trans           &kp C_BRI_INC
+&out OUT_USB  &rgb_ug RGB_BRI  &trans           &trans    &trans  &trans  &trans      &trans       &kp RS(N)  &kp RS(M)  &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &trans             &kp C_VOL_UP     &kp C_BRI_DEC
+&out OUT_BLE  &rgb_ug RGB_BRD  &trans           &trans    &trans  &trans  &trans      &kp KP_PLUS  &kp A      &trans     &trans                &kp C_PREV             &kp C_VOL_DN  &kp C_NEXT
             >;
         };
 
